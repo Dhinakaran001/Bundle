@@ -1,0 +1,51 @@
+.container .btn{
+    background-color: #29cf6b;
+}
+.container #image{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin-top: 50px;
+}
+#mobile{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.border{
+    border: 2px solid;
+}
+#text-para h4{
+    font-size: 1rem;
+}
+#text-para{
+    font-size: 0.9rem;
+}
+.fa-check{
+    color: #29cf6b;
+}
+td{
+    text-align: center;
+}
+th{
+    font-weight: 400;
+}
+#card{
+    background: linear-gradient( rgba(255, 255, 255,0.5), rgba(221, 221, 221, 0.7));
+}
+#card2{
+    margin-top: 120px;
+}
+#stuff{
+    display: flex;
+    justify-content: space-between;
+}
+#footer li{
+    list-style: none;
+}
+#footer li a{
+    text-decoration: none;
+}
+
+@media(max-width: 768px){
+    #table{
+        overflow-x: hidden;
+    }
+}
